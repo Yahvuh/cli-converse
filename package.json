@@ -1,0 +1,27 @@
+{
+  "name": "cli-converse",
+  "version": "0.0.1",
+  "description": "A command line chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yahvuh/cli-converse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yahvuh/cli-converse/issues"
+  },
+  "homepage": "https://github.com/Yahvuh/cli-converse#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.19",
+    "request": "^2.72.0",
+    "request-promise": "^3.0.0",
+    "vorpal": "^1.10.10"
+  }
+}
